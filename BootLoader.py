@@ -54,7 +54,7 @@ async def reload(ctx,name):
     if name not in loadextensions:
         await ctx.send(f'{name} Extension has not been loaded yet!\nUse `>loaded` to see the loaded Functions and Extensions.')
         return
-    if name!='MainFunction':
+    if name!='MainFunction' and name!='MF':
         name='extensions.'+name+'.main'
     else:
         name='MainFunction.main'
@@ -91,9 +91,9 @@ async def functionslist(ctx):
 
 async def start_bot():
     await load_main_cogs()
-    await bot.start("MTIzMDM4MzY4MjMxMzc4MTM0MA.GiJGlL.Qf57hfsdq0UesA2rBYyjRSrEf1Q8SEQSlCUNfo")
+    await bot.start("MTIzMDM4MzY4MjMxMzc4MTM0MA.GJ4iO0.-N7PJ_cpvrCOXlz_zuladjnM9gPSQ6fvOz8GHQ")
 
 asyncio.run(start_bot())
 
 
-"MTIzMDM4MzY4MjMxMzc4MTM0MA.GiJGlL.Qf57hfsdq0UesA2rBYyjRSrEf1Q8SEQSlCUNfo"
+"MTIzMDM4MzY4MjMxMzc4MTM0MA.GJ4iO0.-N7PJ_cpvrCOXlz_zuladjnM9gPSQ6fvOz8GHQ"

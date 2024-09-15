@@ -64,7 +64,8 @@ class main(commands.Cog):
         await ctx.send(l)
 
     @commands.command()
-    async def setup(self, ctx: commands.Context, category: str, options: str, value: str):
+    async def set(self, ctx: commands.Context, category: str, options: str, value: str):
+        print(f'{ctx.author.name} change {category} {options} to {value}')
         user_name = ctx.author.name
         if PermissionCheck.checkrole("Developer", user_name):
             result = SetUp.ChangeValue(category, options, value)

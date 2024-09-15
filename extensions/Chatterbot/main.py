@@ -18,11 +18,10 @@ class Bot(commands.Cog):
         if message.author.id == self.bot.user.id:
             return
 
-        if not message.content.startswith('>'):
-
-            await self.bot.process_commands(message)
+        await self.bot.process_commands(message)
             
-            if (SetUp.CheckValue("chatterbot", "autoreply") or message.channel.id == 1265116926380867655):
+        if not message.content.startswith('>'):
+            if (SetUp.CheckValue("chatterbot", "autoreply") or message.channel.id == 1284795372061069364):
                 try:
                     response = setupbot.get_bot_response(message.content)
                 except Exception as e:

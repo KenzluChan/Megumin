@@ -1,6 +1,6 @@
 {
     "chatterbot": {
-        "autoreply": false,
+        "autoreply": true,
         "usertrainbot": false,
         "userclearbotbata": false
     }
