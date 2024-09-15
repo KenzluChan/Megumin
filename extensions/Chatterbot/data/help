@@ -1,0 +1,8 @@
+# Now available Chatterbot commands list(Megumin-Chatterbot V1.0.0):
+- `>clearbotdata`
+> Clear Megumin's database, it can make Megumin's brain clean if you give some unclean words. (WARNING: Developers only)
+- `>trainbot <language>`
+> Train Megumin with the default data of the language you chose, in other words, you can choose one language to teach Megumin how to speak in this language, these commands need some time to train, also, she can learn it faster than you. (WARNING: Developers only)
+
+# Chatterbot function description:
+You can talk with Megumin when the Chatterbot function is loaded and the value in setup `chatterbot` `autoreply` is True.

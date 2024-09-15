@@ -1,0 +1,13 @@
+# V0.4.3 Megumin Update Features Announcement(2024/8/24):
+- Fix some Errors and bugs.
+
+## Megumin bugs fixed:
+- Fix path Error.
+- Fix load function bugs.
+
+### Megumin changelog:
+- Use .bat to run Megumin without VScode and keep it running constantly while the computer is on.
+- Move the program to slot D.
+- Fix path Error.
+- Find some load function bugs.
+- Fix load function bugs.

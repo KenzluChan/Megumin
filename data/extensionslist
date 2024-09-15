@@ -1,0 +1,6 @@
+MainFunction
+Auto load function when Megumin starts, including basic commands and functions.
+Chatterbot
+An extension that lets you can chat with Megumin. Use `>chatterbothelp` to see more detail.
+RPG
+A game extension. Use `>rpghelp` to see more detail.(This extension is still in the experimental stage and may contain many errors, so please use it with caution.)

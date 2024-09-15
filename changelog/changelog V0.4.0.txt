@@ -1,0 +1,42 @@
+# V0.4.0 Megumin Update Features Announcement(2024/8/19):
+- Add load function.
+- Update help.
+- Add extension 'RPG'.(This extension is still in the experimental stage and may contain many errors, so please use it with caution.)
+- Split 'RPG' and 'Chatterbot' from MainFunction.
+- Split 'Chatterbot' commands help from `>help`.
+- Add a command `>changeloglist` to see all versions released.
+
+## Megumin V0.4.0 new available commands:
+- `>load <extension name>`
+> Load specific extensions.
+- `>unload <extension name>`
+> Unload specific extension loaded.
+- `>loaded`
+> Show the loaded functions and extensions.
+- `>functionslist`
+> Show available functions and extensions.
+- `>changeloglist`
+> Show all Versions released.
+
+## Megumin bugs fixed:
+- The 'RPG' extension's syntax errors.
+- The permission problem.
+- Can't load Chatterbot.
+- can't unload extensions.
+
+### Megumin changelog:
+- Create a BootLoader to connect the Megumin bot and load the main function or other extensions.
+- Add a command `>load` to load specific extensions.
+- Add a command `>loaded` to show the loaded extensions.
+- Add a command `>functionslist` to show available functions and extensions.
+- Add extensions named 'RPG'. Use `>rpghelp` to see more detail.(This extension is still in the experimental stage and may contain many errors, so please use it with caution.)
+- Fix the 'RPG' extension's syntax errors.
+- Add a command `>unload` to unload specific extension loaded.
+- Create a folder to save extensions. Split 'RPG' and 'Chatterbot' from MainFunction.
+- Fix the permission problem.
+- Find a bug that can't load Chatterbot.
+- Fix the upper bug.
+- Find a bug that can't unload extensions.
+- Fix the upper bug.
+- Add a command `>changeloglist` to see all versions released.
+- Split 'Chatterbot' commands help from `>help`.

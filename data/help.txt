@@ -1,0 +1,23 @@
+# Now available main commands list(Megumin V0.4.3):
+- `>changelog <Version>`
+> View the specific version changelog of Megumin. The <Version> format:V_._._ (ex.:V0.1.0).
+- `>changeloglist`
+> Show all Versions released.
+- `>help`
+> Show help text like this.
+- `>setup <category> <options> <value>`
+> Change SetUp Value, the type of value must be the same as the type of the previous value. (WARNING: Developers only)
+- `>checksetup <category> <options>`
+> View specific SetUp's value.
+- `>setuplist`
+> Show all SetUp and Value.
+- `>load <function name>`
+> Load specific extensions. (WARNING: Developers only)
+- `>unload <extension name>`
+> Unload specific extension loaded. (WARNING: Developers only)
+- `>reload <extension name>`
+> Reload extensions. (WARNING: Developers only)
+- `>loaded`
+> Show the loaded functions and extensions.
+- `>functionslist`
+> Show available functions and extensions.

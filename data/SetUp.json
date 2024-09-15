@@ -1,0 +1,7 @@
+{
+    "chatterbot": {
+        "autoreply": false,
+        "usertrainbot": false,
+        "userclearbotbata": false
+    }
+}

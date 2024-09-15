@@ -1,0 +1,42 @@
+# V0.2.0 Megumin Update Features Announcement(2024/7/25):
+- Add a function that Megumin tells you it doesn`t understand you mean if you message is not similar to its database.
+- Add Storage adapter function.
+- Remove `>bugreport` because it is unnecessary in current progress.
+- Add `>changelog <Version>` for viewing Megumin`s changelog.
+- Add a custom database about physics.
+- Update available commands list.
+
+## Megumin V0.2.0 new available commands:
+- `>changelog <Version>`:View the specific version changelog of Megumin.
+
+## Megumin bugs fixed:
+- Fix some Environment Errors.
+- Fix some full_width characters in database to half_width characters.
+- Fix an error from `chatterbot.logic.BestMatch` function.
+- Fix an error from `response_selection_method` function.
+
+### Megumin changelog:
+- Happen Environment error at starting.
+- Try to use Python 3.7.17 with venv.
+- Happen IndentationError.
+- Use Convent indentation to Spaces.
+- Happen some Errors about yaml.
+- Update Python 3.7.17 to Python 3.12.4.
+- Change Module Version in requirement.
+- Add Storage adapter function.
+- Add `MathematicalEvaluation` and `BestMatch` in Logic adapters.
+- Add a function that Megumin tells you it doesn`t understand you mean if you message is not similar to its database.
+- Happen Environment error.
+- Disable `MathematicalEvaluation` in Logic adapters due to Module Error.
+- Above Error fixed.
+- Add a custom database about physics.
+- Fix some full_width characters in database to half_width characters.
+- An error occurred: `float` object is not callable.
+- Find this error is occurred by `chatterbot.logic.BestMatch`.
+- Bug fixed.
+- Add `response_selection_method` function to Megumin.
+- An error occurred: `str` object is not callable.
+- Bug fixed.
+- Move available commands list from main.py to help.txt.
+- Add `>changelog <Version>` for viewing Megumin`s changelog.
+- Update available commands list.

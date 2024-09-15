@@ -1,0 +1,10 @@
+# V0.4.1 Megumin Update Features Announcement(2024/8/20):
+- Fix some bugs.
+
+## Megumin bugs fixed:
+- Chatterbot's database is saved in the wrong path.
+
+### Megumin changelog:
+- Find Chatterbot's database is saved in the wrong path.
+- Try specifying that the URL of Chatterbot's database be stored in a specific path.
+- Bugs fixed.

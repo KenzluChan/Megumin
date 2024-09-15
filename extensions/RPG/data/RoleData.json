@@ -1,0 +1,13 @@
+{
+    "FirewallWarrior":{
+        "name":"FirewallWarrior",
+        "HP":800,
+        "ATK":200,
+        "EP":200,
+        "DEF":70,
+        "SPD":40,
+        "INT":30,
+        "AGI":25,
+        ""
+    }
+}

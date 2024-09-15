@@ -1,0 +1,14 @@
+# V0.3.1 Megumin Update Features Announcement(2024/7/30):
+- Change code.
+- Fix bugs after changing code.
+
+## Megumin bugs fixed:
+ChatterBot can't be trained.
+Megumin reply twice.
+
+### Megumin changelog:
+- Use Cog function to save more commands.
+- Find a bug that Megumin reply twice.
+- Bug fixed(fix on_message() function).
+- Find a bug that ChatterBot can't be trained.
+- Fix code in trainbot() function.

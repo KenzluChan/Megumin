@@ -1,0 +1,36 @@
+# V0.3.0 Megumin Update Features Announcement(2024/7/29):
+- Make the help text and changelog look more beautiful.
+- Add `>SetUp` Function.
+- Add some settings in `>SetUp`.
+- Add Permissions for everyone to limit action.
+
+
+## Megumin V0.3.0 new available commands:
+- `>setup <category> <options> <value>`
+> Change SetUp Value, the type of value must be the same as the type of the previous value. (WARNING: Developers only)
+- `>checksetup <category> <options>`
+> View specific SetUp's value.
+- `>setuplist`
+> Show all SetUp and Value.
+
+
+## Megumin bugs fixed:
+- Bugs fixed(fix wrong value in PermissionsCheck.check() in line 36 and 46).
+- The bug fixed(change Value=bool(Value) to detect "True" and "False" in string class).
+
+
+### Megumin changelog:
+- Move the ChatterBot Function from main.py to ChatterBot.py as a module.
+- Make main.py look cleaner.
+- Make the help text and changelog look more beautiful.
+- Add `>SetUp` Function.
+- Add some settings in `>SetUp`.
+- Add Permissions Function to limit other users' actions.
+- Add Permissions `Developer` to use any commands to develop Megumin.
+- Add some module(PermissionsCheck,SetUp) and fix main.py.
+- Bugs found that users can't use `>trainbot` and `>clearbotdata`.
+- Bugs fixed(fix wrong value in PermissionsCheck.check() in line 36 and 46).
+- Add some commands about setup.
+- Find a bug in `>setup` that doesn't reply.
+- The bug fixed(change Value=bool(Value) to detect "True" and "False" in string class).
+

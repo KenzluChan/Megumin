@@ -1,0 +1,11 @@
+# V0.4.2 Megumin Update Features Announcement(2024/8/22):
+- Add `>reload` to reload extensions.(Let me not restart Megumin over to apply the changes.)
+- Change the permission limit that uses load functions.
+
+## Megumin V0.4.2 new available commands:
+- `>reload <extension name>`
+> Reload extensions. (WARNING: Developers only)
+
+### Megumin changelog:
+- Add `>reload` to reload extensions.
+- Change the permission limit that uses load functions.

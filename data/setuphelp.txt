@@ -1,0 +1,3 @@
+Allow ChatterBot reply your messager.
+Allow users not `Developer` train bot.
+Allow users not `Developer` clear bot's data.

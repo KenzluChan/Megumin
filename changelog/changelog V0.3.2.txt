@@ -1,0 +1,5 @@
+# V0.3.2 Megumin Update Features Announcement(2024/8/18):
+- Add Current Value in `>setuplist`.
+
+### Megumin changelog:
+- Add Current Value in `>setuplist`.

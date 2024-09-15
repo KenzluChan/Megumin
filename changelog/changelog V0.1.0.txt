@@ -1,0 +1,28 @@
+# V0.1.0 Megumin Update Features Announcement(2024/7/22):
+- Add Chatting Function.
+- Add some useful commands.
+- Add `>help` for search available commands.
+
+## Megumin V0.1.0 new available commands:
+- `>clearbotdata`:Clear the database of Megumin.
+- `>trainbot <language>`:Use specific language(20+ available language now) of the database to train Megumin.
+- `>help`:Search available commands list.
+- `>bugreport`:This command is still in the beta process, and having a lot of bug.
+
+### Megumin changelog:
+- Create a Discord Application named Megumin’ in the Discord Developer Portal.
+- Create Megumin’s API token.
+- Test login with Python and some basic functions.
+- Use Chatterbot to make Megumin chat with everyone. In addition,Chatterbot models can train by themselves when everyone talks with them.
+- Find a bug that Megumin replies to when chatting,it makes Megumin reply to her message infinity.
+- Bug fixed,using message.author!=<Megumin ID>’ to make Megumin only reply the message not sent by itself.
+- Add a command `>trainbot` to let everyone train Megumin with specific language.
+- Find a bug that users can't use commands.
+- Bug fixed,using await bot.process_commands(message)’ and not(“>” in  message)’ to wait to detect commands and not reply messages including commands prefix.
+- Add a command `>clearbotdata` to let everyone clear the data in Megumin.
+- Change language 'traditionalchinese' to 'tc' for using 'traditionalchinese' easier.
+- Disable train Megumin with default language in the first when Megumin is running makes Megumin start faster.
+- Add `>help` for search available commands,also adding some usage and description about these commands.
+- Add a function that tells you to use `help` to check correct syntaxes,usage, and available commands if you input incorrect commands or syntaxes.
+- Add `>bugreport` for reporting bugs about Megumin.
+- Find a bug in `>bugreport` that doesn't receive a complete sentence.
