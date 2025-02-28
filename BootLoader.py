@@ -8,7 +8,7 @@ loadextensions=[]
 
 @bot.event
 async def on_ready():
-    channel = bot.get_channel(1265116926380867655)
+    channel = bot.get_channel(1284795372061069364)
     if channel:
         await channel.send("Explosion!")
     print(f'Login Successfully!\nLogged in as {bot.user}')

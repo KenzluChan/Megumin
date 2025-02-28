@@ -26,7 +26,8 @@ class Bot(commands.Cog):
                     response = setupbot.get_bot_response(message.content)
                 except Exception as e:
                     response = f"An error occurred: {str(e)}"
-                await message.channel.reply(response)
+                    print(response)
+                await message.reply(response)
         
     @commands.command()
     async def chatterbothelp(self, ctx: commands.Context):

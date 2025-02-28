@@ -1,0 +1,26 @@
+# V0.4.5 Megumin Update Features Announcement(2024/8/):
+- Fix some Errors and bugs.
+- Add `>allchangelog` for viewing all changelog.
+
+## Megumin V0.4.5 commands change:
+- `>setup` to `>set`.
+
+## Megumin V0.4.5 new available commands:
+- `>allchangelog`
+> Viewing all changelog.(Extreme LONG!!!)
+
+## Megumin bugs fixed:
+- Fix path Error.
+- `>changeloglist` can't work.
+- `>setup` can't work.
+- Chatterbot Function can't reply any messages.
+
+### Megumin changelog:
+- Move the program to slot K.
+- Fix path Error.
+- Find `>changeloglist` can't work.
+- Change relative path to absolute path.
+- Fixed.
+- `>setup` can't work.
+- Change `>setup` to `>set`.(Fixed)
+- Chatterbot Function can't reply any messages.(Fixed)

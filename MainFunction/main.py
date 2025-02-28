@@ -84,6 +84,14 @@ class main(commands.Cog):
     @commands.command()
     async def setuplist(self, ctx: commands.Context):
         await ctx.send(SetUp.list())
+    
+    @commands.command()
+    async def allchangelog(self,ctx):
+        files = [f for f in os.listdir(r'K:\Megumin\changelog') if os.path.isfile(os.path.join(r'K:\Megumin\changelog', f))]
+        for i in files:
+            with open(fr'K:\Megumin\changelog\changelog {i}.txt', 'r', encoding='utf-8') as f:
+                changelog = f.read()
+            await ctx.send(changelog)
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(main(bot))
