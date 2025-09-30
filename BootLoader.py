@@ -91,9 +91,8 @@ async def functionslist(ctx):
 
 async def start_bot():
     await load_main_cogs()
-    await bot.start("MTIzMDM4MzY4MjMxMzc4MTM0MA.GJ4iO0.-N7PJ_cpvrCOXlz_zuladjnM9gPSQ6fvOz8GHQ")
+    await bot.start("")
 
 asyncio.run(start_bot())
 
 
-"MTIzMDM4MzY4MjMxMzc4MTM0MA.GJ4iO0.-N7PJ_cpvrCOXlz_zuladjnM9gPSQ6fvOz8GHQ"
