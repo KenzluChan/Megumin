@@ -15,8 +15,8 @@ class Bot(commands.Cog):
 
     @commands.Cog.listener()
     async def on_message(self, message: discord.Message):
-        if message.author.id == self.bot.user.id:
-            return
+        # if message.author.id == self.bot.user.id:
+        #     return
 
         await self.bot.process_commands(message)
             
@@ -31,7 +31,7 @@ class Bot(commands.Cog):
         
     @commands.command()
     async def chatterbothelp(self, ctx: commands.Context):
-        with open(r'K:\Megumin\extensions\Chatterbot\data\help', 'r') as f:
+        with open(r'extensions\Chatterbot\data\help', 'r') as f:
             helpmessage = f.read()
         await ctx.send(helpmessage)
 

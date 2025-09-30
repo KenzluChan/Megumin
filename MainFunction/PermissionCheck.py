@@ -1,7 +1,7 @@
 import json
 from MainFunction import SetUp
 
-with open(r'K:\Megumin\data\Memberpermissions.json', 'r',encoding='utf-8') as file:
+with open(r'data\Memberpermissions.json', 'r',encoding='utf-8') as file:
     Memberpermissions = json.load(file)
 
 def check(Category, Options, role, user):

@@ -77,7 +77,7 @@ async def loaded(ctx):
 @bot.command()
 async def functionslist(ctx):
     l='# Available Extensions:\n'
-    with open(r'K:\Megumin\data\extensionslist','r') as f:
+    with open(r'.\data\extensionslist','r') as f:
         while True:
             n=f.readline()
             if n=='':

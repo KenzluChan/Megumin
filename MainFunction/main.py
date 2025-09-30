@@ -40,14 +40,14 @@ class main(commands.Cog):
 
     @commands.command()
     async def help(self, ctx: commands.Context):
-        with open(r'K:\Megumin\data\help.txt', 'r') as f:
+        with open(r'data\help.txt', 'r') as f:
             helpmessage = f.read()
         await ctx.send(helpmessage)
 
     @commands.command()
     async def changelog(self, ctx: commands.Context, Version: str):
         try:
-            with open(fr'K:\Megumin\changelog\changelog {Version}.txt', 'r', encoding='utf-8') as f:
+            with open(fr'changelog\changelog {Version}.txt', 'r', encoding='utf-8') as f:
                 changelog = f.read()
             await ctx.send(changelog)
         except Exception:
@@ -57,7 +57,7 @@ class main(commands.Cog):
     async def changeloglist(self,ctx):
         print('Load Changelog List...')
         l='# Changelog List(Use `>changelog <Version>` to see details.):\n'
-        files = [f for f in os.listdir(r'K:\Megumin\changelog') if os.path.isfile(os.path.join(r'K:\Megumin\changelog', f))]
+        files = [f for f in os.listdir(r'changelog') if os.path.isfile(os.path.join(r'changelog', f))]
         print(l,files)
         for i in files:
             l=l+'- '+i[10:16]+'\n'
@@ -87,9 +87,9 @@ class main(commands.Cog):
     
     @commands.command()
     async def allchangelog(self,ctx):
-        files = [f for f in os.listdir(r'K:\Megumin\changelog') if os.path.isfile(os.path.join(r'K:\Megumin\changelog', f))]
+        files = [f for f in os.listdir(r'changelog') if os.path.isfile(os.path.join(r'changelog', f))]
         for i in files:
-            with open(fr'K:\Megumin\changelog\changelog {i}.txt', 'r', encoding='utf-8') as f:
+            with open(fr'changelog\changelog {i}.txt', 'r', encoding='utf-8') as f:
                 changelog = f.read()
             await ctx.send(changelog)
 

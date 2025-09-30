@@ -13,7 +13,7 @@ chatbot = ChatBot(
     #         'maximum_similarity_threshold': 0,
     #     }
     # ],
-    database_uri = r"sqlite:///K:\Megumin\extensions\Chatterbot\data\database.sqlite3"
+    database_uri = r"sqlite:///C:\KaedorenProject\Megumin\extensions\Chatterbot\data\database.sqlite3"
 )
 
 

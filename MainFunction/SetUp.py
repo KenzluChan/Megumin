@@ -1,6 +1,6 @@
 import json
 
-with open(r'K:\Megumin\data\SetUp.json', 'r', encoding='utf-8') as file:
+with open(r'data\SetUp.json', 'r', encoding='utf-8') as file:
     SetUp = json.load(file)
 
 def CheckValue(Category, Options):
@@ -45,7 +45,7 @@ def ChangeValue(Category, Options, Value):
 
 def list():
     setuplist='# Available Setup Value:\n'
-    setuphelp=open(r'K:\Megumin\data\setuphelp.txt', 'r', encoding='utf-8')
+    setuphelp=open(r'data\setuphelp.txt', 'r', encoding='utf-8')
     for i in SetUp:
         setuplist+='## '+i+':\n'
         for j in SetUp[i]:
